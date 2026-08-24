@@ -1,0 +1,13 @@
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+python-multipart==0.0.12
+Pillow==10.4.0
+pytest==8.3.3
+httpx==0.27.2
+
+# Goruntu siniflandirma icin: OpenAI CLIP ve bagimliliklari.
+# torch/torchvision CPU-only index'ten kurulmali (bkz. README kurulum adimlari).
+ftfy==6.2.3
+regex==2024.9.11
+tqdm==4.66.5
+git+https://github.com/openai/CLIP.git
